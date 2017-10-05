@@ -1,9 +1,7 @@
 html {
-
 	height: 100%;
 }
 
-}
 body {
   min-height: 100%;
   margin: 0;
@@ -12,9 +10,8 @@ body {
 }
 
 .liens-top {
-
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 	text-align: right;
 	padding-right: 20px;
 	padding-top: 10px;
@@ -24,7 +21,6 @@ body {
 }
 
 a {
-
  	text-decoration: none;
  	color: #222 ;
 }
@@ -32,39 +28,29 @@ a {
 
 
 li {
-    width: 900px;
+  width: 900px;
 	height: 30px;
-    display: inline;
-    margin: 30px 10px;
-
-
+  display: inline;
+  margin: 30px 10px;
 }
 
-.bouton-app
-{
-  	width: 30px;
+.bouton-app {
+  width: 30px;
 	height: 30px;
 	display: inline;
 	position:relative;
 	top: 7px;
-
 }
 
-
-
-
-.connex
-{
-
-    border: 1px solid #4285f4;
-    font-weight: bold;
+.connex {
+  border: 1px solid #4285f4;
+  font-weight: bold;
 	background-color: #4285f4;
 	color: white;
 	padding: 5px 12px ;
 }
 
-.éléments_centraux
-{
+.éléments_centraux {
 	overflow: hidden;
 	height: 0;
 	margin-top: 10px
@@ -72,8 +58,7 @@ li {
 	background: white;
 }
 
-.logo
-{
+.logo {
 	width: 300px;
 	height: 100px;
 	background-size: 272px 92px;
@@ -81,35 +66,29 @@ li {
 	background-repeat: no-repeat;
 	/*background-color: blue;*/
 	/*margin: 200px 550px;*/
-	  margin: 10% 40%;
-
-
+	margin-top: 120px ;
+	margin-left: 400px;
 }
 
-
-.france
-{
-	 position:relative;
-	 top: 80px;
-	 left: 220px;
-	 width: 100px;
+.france {
+	position:relative;
+	top: 80px;
+	left: 220px;
+	width: 100px;
 	height: 30px;
 	font-family: roboto-regular,arial,sans-serif;
 	font-size: 16px;
 	color: #4285f4;
-
 }
 
-.form
-{
+.form {
 	 width: 500px;
 	 height: 100px;
-	 top: 90px;
-	 left: -160px;
+	 margin-top: 80px;
+	 margin-left: 300px;
 }
 
-input
-{
+input {
 	width: 600px;
 	height: 40px;
 	border: 1px #D1D1D1 solid;
@@ -117,29 +96,18 @@ input
 	box-shadow: 1px 1px 2px 1px #D1D1D1;
 }
 
-input:hover
-{
+input:hover {
 	box-shadow: 1px 2px 5px 2px #D1D1D1;
 }
 
-
-.champ
-{
-
-}
-
-.boutons
-{
-
+.boutons {
 	padding-top: 20px;
 	height: 36px;
 	line-height: 27px;
 	margin-left: 150px;
 }
 
-.bouton
-{
-
+.bouton {
 	width: 150px;
 	height: 30px;
 	background-color: #f2f2f2;
@@ -156,36 +124,26 @@ input:hover
 	text-align: center;
 }
 
-.bouton:hover
-{
-
+.bouton:hover {
 	border: 1px solid #c6c6c6;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	color: #222;
 }
 
-footer
-{
-		position: absolute; bottom: 0; left: 0; right: 0
-
+footer {
+	position: absolute; bottom: 0; left: 0; right: 0
 }
 
-.footer
-{
-
+.footer {
 	height: 40px;
 	background-color: #f2f2f2;
 	border-top: 1px solid #e4e4e4
 }
 
-
-.liens-bottom-gauche
-{
-
-    margin: 0;
-    padding: 0;
+.liens-bottom-gauche {
+  margin: 0;
+  padding: 0;
 	text-align: left;
-
 	padding-top: 10px;
 	display: inline;
 	float: left;
@@ -194,13 +152,9 @@ footer
 	color: #222 ;
 }
 
-
-
-.liens-bottom-droite
-{
-
-    margin: 0;
-    padding: 0;
+.liens-bottom-droite {
+  margin: 0;
+  padding: 0;
 	text-align: right;
 	padding-right: 20px;
 	padding-top: 10px;
@@ -211,27 +165,24 @@ footer
 	color: #222 ;
 }
 
-#pub
-{
+#pub {
 	margin-left: 2%;
 }
 
-#centraux
-{
+#centraux {
     height: 550px;
     border-bottom: 1px solid #dcdcdc;
 		display: none;
 }
 
-#display
-{
+#display {
     display: block;
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 300px;
+    margin-top: 200px;
 }
-#display button
-{
+
+#display button {
     font-family: "arial", sans-serif;
     background-color: blue;
     font-size: 13px;
