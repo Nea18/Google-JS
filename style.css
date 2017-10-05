@@ -25,9 +25,9 @@ body {
 
 a {
 
- 	text-decoration: none; 
+ 	text-decoration: none;
  	color: #222 ;
-} 
+}
 
 
 
@@ -38,7 +38,7 @@ li {
     margin: 30px 10px;
 
 
-} 
+}
 
 .bouton-app
 {
@@ -54,17 +54,23 @@ li {
 
 
 .connex
-
 {
 
     border: 1px solid #4285f4;
     font-weight: bold;
-	background-color: #4285f4;	
+	background-color: #4285f4;
 	color: white;
 	padding: 5px 12px ;
 }
 
-
+.éléments_centraux
+{
+	overflow: hidden;
+	height: 0;
+	margin-top: 10px
+	color: black;
+	background: white;
+}
 
 .logo
 {
@@ -96,23 +102,19 @@ li {
 
 .form
 {
-
-	 	width: 500px;
-		height: 100px;
-	 position:relative;
+	 width: 500px;
+	 height: 100px;
 	 top: 90px;
 	 left: -160px;
 }
 
 input
 {
-	width: 600px;	
+	width: 600px;
 	height: 40px;
 	border: 1px #D1D1D1 solid;
 	padding-left: 10px;
 	box-shadow: 1px 1px 2px 1px #D1D1D1;
-
-
 }
 
 input:hover
@@ -212,4 +214,32 @@ footer
 #pub
 {
 	margin-left: 2%;
+}
+
+#centraux
+{
+    height: 550px;
+    border-bottom: 1px solid #dcdcdc;
+		display: none;
+}
+
+#display
+{
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 300px;
+}
+#display button
+{
+    font-family: "arial", sans-serif;
+    background-color: blue;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 100px;
 }
